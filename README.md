@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# 🤖 FIKA AI — Engineering Productivity Insights Bot
+# 🤖 AI — INSIGHT — ENGINEERING — SYSTEM 
 
-FIKA AI is an AI-powered **engineering productivity insights dashboard and Slack bot** that analyzes GitHub activity to surface meaningful developer metrics. It helps engineering teams gain visibility into commits, pull requests, churn, cycle times, and review relationships through a beautifully visualized dashboard and Slack integration.
+The system is an AI-powered **engineering productivity insights dashboard and Slack bot** that analyzes GitHub activity to surface meaningful developer metrics. It helps engineering teams gain visibility into commits, pull requests, churn, cycle times, and review relationships through a beautifully visualized dashboard and Slack integration.
 
 ---
 
