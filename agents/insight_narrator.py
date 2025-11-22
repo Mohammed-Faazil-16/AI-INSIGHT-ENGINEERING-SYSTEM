@@ -73,4 +73,31 @@ class InsightNarrator:
             report_lines.append("\n*⚠️ High Risk Commits:*")
             report_lines.extend(risky_commits)
 
+        # ✅ PLACE TO USE OPENAI API (e.g., GPT-4/4o)
+        # ------------------------------------------------
+        # Example (not executed here):
+        # from openai import OpenAI
+        # client = OpenAI()
+        # response = client.chat.completions.create(
+        #     model="gpt-4o-mini",
+        #     messages=[{"role": "user", "content": "\n".join(report_lines)}]
+        # )
+        # ai_generated_summary = response.choices[0].message.content
+        # return ai_generated_summary, None
+        # ------------------------------------------------
+
+        # ✅ PLACE TO USE LLAMA 2 (via Ollama local model)
+        # ------------------------------------------------
+        # Example (not executed here):
+        # import subprocess, json
+        # prompt = "\n".join(report_lines)
+        # result = subprocess.run(
+        #     ["ollama", "run", "llama2", prompt],
+        #     capture_output=True,
+        #     text=True
+        # )
+        # llama_summary = result.stdout
+        # return llama_summary, None
+        # ------------------------------------------------
+
         return "\n".join(report_lines), None
